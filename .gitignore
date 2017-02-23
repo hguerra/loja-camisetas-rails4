@@ -1,0 +1,31 @@
+# Ignore bundler config.
+/.bundle
+
+# Ignore the default SQLite database.
+/db/*.sqlite3
+/db/*.sqlite3-journal
+
+# Ignore all logfiles and tempfiles.
+/log/*
+!/log/.keep
+/tmp
+
+/.yardoc
+/Gemfile.lock
+/_yardoc/
+/coverage/
+/doc/
+/pkg/
+/spec/reports/
+
+# rspec failure tracking
+.rspec_status
+
+# JetBrains
+
+# User-specific stuff:
+.idea/
+.idea/*.xml
+
+## File-based project format:
+*.iws
